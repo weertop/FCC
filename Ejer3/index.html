@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pagina</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Coffe Shop</title>
 </head>
 <body>
-    <header>
-        <nav>hello</nav>
+    <header id="header">
+        <img src="https://cdn.pixabay.com/photo/2018/09/24/11/11/coffee-3699657_1280.png" alt="header image" id="header-img">
+        <nav id="nav-bar">
+            <nav class="nav-link"><a href="#product">Products</a></nav>
+            <nav class="nav-link"><a href="#video">Video</a></nav>
+            <nav class="nav-link"> <a href="#place"> Where we are?</a></nav>
+        </nav>
     </header>
-    <article></article>
-    <footer></footer>
+    <article id="article">
+        <div id="product">
+            hello
+
+        </div>
+        <div id="video">
+            <iframe src="https://www.youtube.com/embed/wHyr6FdKtzY?autoplay=1&controls=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="little-form">
+            <form action="https://www.freecodecamp.com/email-submit" id="from" target="_blank">
+                <div id="email-submit">
+                    <label for="email">Enter your email to recibe notifications about our new products:</label>
+                    <input type="email" id="email" placeholder="enter email">
+                    <input type="submit" id="submit" value="submit">
+                </div>
+            </form>
+        </div>
+        <div id="place">
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=Sector+Oficios,+29,+local+4+posterior,+28760+Tres+Cantos,+Madrid&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" frameborder="0" id="place2"></iframe>
+        </div>
+    </article>
+    <footer id="footer">
+
+    </footer>
 </body>
 </html>
