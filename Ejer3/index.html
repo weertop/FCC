@@ -1,44 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Satisfy&display=swap" rel="stylesheet"> 
     <title>Coffe Shop</title>
 </head>
+
 <body>
     <header id="header">
-        <img src="https://cdn.pixabay.com/photo/2018/09/24/11/11/coffee-3699657_1280.png" alt="header image" id="header-img">
+        <img src="https://cdn.pixabay.com/photo/2018/09/24/11/11/coffee-3699657_1280.png" alt="header image"
+            id="header-img">
         <nav id="nav-bar">
-            <nav class="nav-link"><a href="#product">Products</a></nav>
-            <nav class="nav-link"><a href="#video">Video</a></nav>
-            <nav class="nav-link"> <a href="#place"> Where we are?</a></nav>
+            <a href="#product" class="nav-link">products</a>
+            <a href="#video" class="nav-link">video</a>
+            <a href="#place" class="nav-link"> where we are?</a>
         </nav>
     </header>
     <article id="article">
         <div id="product">
-            hello
-
+            <div class="row">
+                <img src="https://cdn.pixabay.com/photo/2015/10/12/14/54/coffee-983955_1280.jpg" alt="">
+                <p>To make an espresso, shoot boiling water under high pressure through finely ground up coffee beans
+                    and then pour into a tiny mug. Sounds simple right? Well, it’s surprisingly difficult to master.
+                    Espressos are the purest coffee experience you can get, and while they’re not for everyone, it can
+                    be a truly singular drinking experience when you find a good brew.</p>
+            </div>
+            <div class="row">
+                <img src="https://images.pexels.com/photos/531642/pexels-photo-531642.jpeg?cs=srgb&dl=background-beverage-blur-531642.jpg&fm=jpg" alt="">
+                <p>Possibly the most popular type of coffee in the world, a cappuccino consists of three layers (kind of
+                    like a cake). The first is a shot of espresso, then a shot of steamed milk, and finally the barista
+                    adds a layer of frothed, foamy milk. This final layer can also be topped with chocolate shavings or
+                    powder. Traditionally, Italians would consume this type of coffee at breakfast.</p>
+            </div>
+            <div class="row">
+                <img src="https://cdn.pixabay.com/photo/2016/04/26/16/58/coffe-1354786_1280.jpg" alt="">
+                <p>You can make this type of coffee quite simply by adding hot water to a shot of espresso coffee. It
+                    has been said that American soldiers during the Second World War would make this type of coffee to
+                    make their beverages last longer. It was then (apparently) adopted by American baristas after the
+                    war.</p>
+            </div>
+            <div class="row">
+                <img src="https://images.pexels.com/photos/8836/coffee.jpg?cs=srgb&dl=beverage-coffee-latte-8836.jpg&fm=jpg" alt="">
+                <p>A fairly popular option for coffee drinkers, a latte consists steamed (or scolded) milk and a single
+                    shot of coffee. It is usually quite frothy, and you’ll occasionally encounter cafes that don’t
+                    understand the difference between this and a flat white.</p>
+            </div>
         </div>
-        <div id="video">
-            <iframe src="https://www.youtube.com/embed/wHyr6FdKtzY?autoplay=1&controls=1" frameborder="0" allowfullscreen></iframe>
+        <hr>
+        <div id="video-frame">
+            <iframe src="https://www.youtube.com/embed/wHyr6FdKtzY?controls=1" frameborder="0"
+                id="video" allowfullscreen></iframe>
         </div>
         <div id="little-form">
-            <form action="https://www.freecodecamp.com/email-submit" id="from" target="_blank">
+            <form action="https://www.freecodecamp.com/email-submit" id="form" target="_blank">
                 <div id="email-submit">
                     <label for="email">Enter your email to recibe notifications about our new products:</label>
-                    <input type="email" id="email" placeholder="enter email">
+                    <input type="email" id="email" placeholder="enter email" name="email" required>
                     <input type="submit" id="submit" value="submit">
                 </div>
             </form>
         </div>
         <div id="place">
-            <iframe src="https://www.google.com/maps/embed/v1/place?q=Sector+Oficios,+29,+local+4+posterior,+28760+Tres+Cantos,+Madrid&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" frameborder="0" id="place2"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed/v1/place?q=Sector+Oficios,+29,+local+4+posterior,+28760+Tres+Cantos,+Madrid&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                frameborder="0" id="place-frame"></iframe>
         </div>
     </article>
     <footer id="footer">
-
+        <a href="#" class="final">About us </a>
+        <a href="#header" class="final"> Home </a>
+        <a href="#" class="final"> Social</a>
     </footer>
 </body>
+
 </html>
